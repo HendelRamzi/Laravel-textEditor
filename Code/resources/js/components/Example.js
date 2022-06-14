@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { Navbar } from './Navbar';
+import { SectionOne } from './SectionOne';
 
-// Matrial UI imports
-import Button from '@mui/material/Button';
+
 
 function Example() {
     return (
-        <div className="container">
+        <div className="container-fluid">
             <Navbar />
+            <SectionOne title= "This is a title" image="{{ asset('public/Images/pic1.jpg') }}"/>
+            <SectionOne title= "This is a second title" image="{{ asset('public/Images/pic1.jpg') }}"/>
         </div>
     );
 }

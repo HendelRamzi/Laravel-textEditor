@@ -19,12 +19,20 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
+                margin: 0;
+                padding: 0;
             }
+            .nav-link.font{
+                font-size: 3.5rem ; 
+                color: black
+            }
+
         </style>
           <script defer src="/js/manifest.js"></script>
           <script defer src="/js/vendor.js"></script>   
           <script defer src="/js/app.js"></script>
-    </head>
+        
+        </head>
     <body >
         <div id="example"></div>
 
